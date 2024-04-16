@@ -4,7 +4,8 @@ import AddBooks from '../components/AddBooks'
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4500/graphql',
+  // uri: 'http://localhost:4500/graphql',
+  uri: 'https://backgraph.onrender.com/graphql',
   cache: new InMemoryCache(),
 });
 
