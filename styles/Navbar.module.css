@@ -1,0 +1,6 @@
+.backgpix {
+    background-image: url('/backpix.PNG'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;    
+  }
